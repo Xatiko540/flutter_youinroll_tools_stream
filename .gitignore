@@ -1,9 +1,12 @@
 *.idea
 .DS_Store
 .dart_tool/
+.github/workflows/publish.yml
+.github/workflows/test.yml
+.idea/libraries/Dart_SDK.xml
+.idea/libraries/Flutter_Plugins.xml
 
 .packages
 .pub/
 
 build/
-*.idea

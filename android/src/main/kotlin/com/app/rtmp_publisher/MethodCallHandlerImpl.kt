@@ -1,10 +1,9 @@
-package com.app.rtmp_publisher
+package com.app.youinroll_tools_stream
 
 import android.app.Activity
 import android.hardware.camera2.CameraAccessException
 import android.os.Build
 import android.util.Log
-import android.util.LongSparseArray
 import androidx.annotation.RequiresApi
 import com.app.rtmp_publisher.CameraPermissions.ResultCallback
 import io.flutter.plugin.common.*

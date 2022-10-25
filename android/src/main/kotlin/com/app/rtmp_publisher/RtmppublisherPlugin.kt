@@ -1,18 +1,15 @@
-package com.app.rtmp_publisher
+package com.app.youinroll_tools_stream
 
 import android.app.Activity
 import android.os.Build
 import android.util.Log
 import androidx.annotation.NonNull
+import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
 import io.flutter.plugin.common.BinaryMessenger
-import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.PluginRegistry
-import io.flutter.plugin.common.PluginRegistry.Registrar
-import io.flutter.view.TextureRegistry
-import io.flutter.embedding.engine.FlutterEngine
 
 interface PermissionStuff {
     fun adddListener(listener: PluginRegistry.RequestPermissionsResultListener);

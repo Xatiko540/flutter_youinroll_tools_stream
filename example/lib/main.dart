@@ -90,6 +90,10 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
   }
 
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+  ////////////var showSnackBar;
+  //(){
+
+ // }
 
   @override
   Widget build(BuildContext context) {
@@ -304,13 +308,16 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
 
     return Row(children: toggles);
   }
-
+  //final _scaffoldKey = GlobalKey<ScaffoldState>();
   String timestamp() => DateTime.now().millisecondsSinceEpoch.toString();
 
   void showInSnackBar(String message) {
     // ignore: deprecated_member_use
-    _scaffoldKey.currentState.showSnackBar(SnackBar(content: Text(message)));
+   ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(message)));
   }
+//  showSnackBar(){
+
+ // }
 
   void onNewCameraSelected(CameraDescription cameraDescription) async {
     if (controller != null) {
@@ -531,7 +538,7 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
             ),
             actions: <Widget>[
               // ignore: deprecated_member_use
-              new FlatButton(
+              new TextButton(
                 child: new Text(
                     MaterialLocalizations.of(context).cancelButtonLabel),
                 onPressed: () {
@@ -539,7 +546,7 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
                 },
               ),
               // ignore: deprecated_member_use
-              FlatButton(
+              TextButton(
                 child: Text(MaterialLocalizations.of(context).okButtonLabel),
                 onPressed: () {
                   Navigator.pop(context, result);

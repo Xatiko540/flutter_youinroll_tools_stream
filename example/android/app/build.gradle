@@ -1,3 +1,5 @@
+
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -39,9 +41,9 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.app.rtmp_publisher_example"
-        minSdkVersion 21
-        targetSdkVersion 30
+        applicationId "com.app.youinroll_tools_stream"
+        minSdkVersion 25
+        targetSdkVersion 31
         versionCode 1
         multiDexEnabled true
         versionName flutterVersionName
@@ -58,6 +60,7 @@ android {
     packagingOptions {
         exclude 'project.clj'
     }
+    namespace 'com.app.youinroll_tools_stream'
 }
 
 flutter {

@@ -1,4 +1,4 @@
-package com.app.rtmp_publisher
+package com.app.youinroll_tools_stream
 
 import android.Manifest.permission
 import android.app.Activity
@@ -7,7 +7,6 @@ import androidx.annotation.VisibleForTesting
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import io.flutter.plugin.common.PluginRegistry.RequestPermissionsResultListener
-import kotlin.reflect.KFunction1
 
 class CameraPermissions {
 

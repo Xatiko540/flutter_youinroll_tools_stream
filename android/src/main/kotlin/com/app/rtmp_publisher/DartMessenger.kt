@@ -1,4 +1,4 @@
-package com.app.rtmp_publisher
+package com.app.youinroll_tools_stream
 
 import android.text.TextUtils
 import io.flutter.plugin.common.BinaryMessenger

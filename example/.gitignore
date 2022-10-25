@@ -23,6 +23,12 @@
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
+
+.github/workflows/publish.yml
+.github/workflows/test.yml
+.idea/libraries/Dart_SDK.xml
+.idea/libraries/Flutter_Plugins.xml
+
 .flutter-plugins
 .flutter-plugins-dependencies
 .packages

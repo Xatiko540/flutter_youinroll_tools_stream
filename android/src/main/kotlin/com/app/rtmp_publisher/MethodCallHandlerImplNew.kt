@@ -1,8 +1,7 @@
-package com.app.rtmp_publisher
+package com.app.youinroll_tools_stream
 
 import android.app.Activity
 import android.content.Context
-import android.graphics.Point
 import android.hardware.camera2.CameraAccessException
 import android.hardware.camera2.CameraCharacteristics
 import android.hardware.camera2.CameraManager
@@ -13,10 +12,9 @@ import android.util.Log
 import android.view.OrientationEventListener
 import androidx.annotation.RequiresApi
 import com.app.rtmp_publisher.CameraPermissions.ResultCallback
+import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.*
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
-import io.flutter.embedding.engine.FlutterEngine
-import java.util.HashMap
 
 class MethodCallHandlerImplNew(
         private val activity: Activity,

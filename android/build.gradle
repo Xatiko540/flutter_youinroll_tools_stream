@@ -1,4 +1,4 @@
-group 'com.app.rtmp_publisher'
+group 'com.app.youinroll_tools_stream'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -32,7 +32,11 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 21
+        applicationId "youinroll_tools_stream"
+        minSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         disable 'InvalidPackage'

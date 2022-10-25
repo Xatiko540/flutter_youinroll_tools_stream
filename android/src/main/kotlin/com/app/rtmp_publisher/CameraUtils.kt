@@ -1,4 +1,4 @@
-package com.app.rtmp_publisher
+package com.app.youinroll_tools_stream
 
 
 import android.app.Activity
@@ -10,9 +10,7 @@ import android.hardware.camera2.CameraManager
 import android.hardware.camera2.CameraMetadata
 import android.hardware.camera2.params.StreamConfigurationMap
 import android.media.CamcorderProfile
-import android.os.Build
 import android.util.Size
-import androidx.annotation.RequiresApi
 import com.app.rtmp_publisher.Camera.ResolutionPreset
 import java.util.*
 

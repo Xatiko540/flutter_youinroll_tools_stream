@@ -1,4 +1,4 @@
-# rtmp_publisher_example
+# youinroll_tools_stream
 
 Demonstrates how to use the rtmp_publisher plugin.
 

@@ -1,4 +1,4 @@
-package com.app.rtmp_publisher
+package com.app.youinroll_tools_stream
 
 import android.media.MediaCodec
 import android.media.MediaCodecInfo
